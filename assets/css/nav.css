@@ -1,0 +1,33 @@
+.main-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-header .img-container {
+    max-width: 100%;
+}
+
+.main-header .img-container img {
+    display: inline;
+    width: 10rem;
+    padding-top: 0.6rem;
+    padding-left: 4.6rem;
+}
+
+.main-header .main-nav ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    padding-right: 4.6rem;
+    padding-top: 0.6rem;
+}
+
+.main-nav li {
+    list-style-type: none;
+}
+
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}

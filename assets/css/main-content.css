@@ -1,0 +1,58 @@
+h1, h3 {
+    color: #2cd1c7;
+}
+
+p {
+    color: #fff;
+}
+
+footer a {
+    color: #2cd1c7;
+    text-decoration: none;
+}
+
+
+.intro-section .hero-image {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.intro-section img {
+    max-width: 100%;
+}
+
+.intro-section h1 {
+    text-align: center;
+    font-size: 67px;
+    /* color: #2cd1c7; */
+}
+
+.band-section h3, .band-section p {
+    font-size: 18px;
+}
+
+.band-container figure img {
+    width: 100%
+}
+
+.band-section a {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.band-section .band-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skull-image {
+    display: flex;
+    justify-content: center;
+}
+
+.skull-image img {
+    padding-top: 3rem;
+    width: 8rem;
+}
