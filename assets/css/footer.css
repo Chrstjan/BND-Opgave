@@ -13,6 +13,7 @@
     align-items: center;
 }
 
+/* This styles the the first two inputs */
 
 .contact-footer .input-container input {
     width: 500px;
@@ -30,6 +31,8 @@
     justify-content: center;
     align-items: center;
 }
+
+/* This styles the submit button */
 
 .contact-footer .submit-container input:first-child {
     width: 320px;
